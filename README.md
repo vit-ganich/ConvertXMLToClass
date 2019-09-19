@@ -20,9 +20,9 @@ App for convert XML-file with locators to Page Object class.
       &lt;id&gt;OrganizationID&lt;/id&gt;
     &lt;/Object&gt;
 &lt;/Container&gt;
-<code>
+</pre>
 
-### Ouput
+### Output sample
 <pre>
 public class Page 
 {
@@ -30,4 +30,5 @@ public class Page
     public CPPickList ParentOrganization => new CPPickList (By.Id(ParentOrganization"), this);
     public CPTextBox OrganizationNumber => new CPTextBox (By.Id("OrganizationNumber"), this);
 }
+
 <code>
