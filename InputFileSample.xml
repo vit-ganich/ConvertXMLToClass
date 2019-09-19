@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Container name="Organization">
+    <Object>
+      <label>Organization</label>
+      <type>CPTextBox</type>
+      <id>NameTxt</id>
+    </Object>
+    <Object>
+      <label>Parent Organization</label>
+      <type>CPPickList</type>
+      <id>ParentOrganization</id>
+    </Object>
+    <Object>
+      <label>Organization Number</label>
+      <type>CPTextBox</type>
+      <id>OrganizationID</id>
+    </Object>
+</Container>

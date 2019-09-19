@@ -1,0 +1,34 @@
+public class Page {
+public CPRichTextEditor Message => new CPRichTextEditor (By.Name("ctl00$WebPartManager$MDL_Specific$CollapsibleSectionsAccordion$ctl04$Message$MessageTextBoxControl$ctl00"), this);
+public CPButton Triage => new CPButton (By.XPath("//input[@value='Triage']"), this);
+public CPButton ChangeCategory => new CPButton (By.XPath("//input[@value='Change Category']"), this);
+public CPButton Reassign => new CPButton (By.XPath("//input[@value='Reassign']"), this);
+public CPButton Approve => new CPButton (By.XPath("//input[@value='Approve']"), this);
+public CPButton CancelApproval => new CPButton (By.XPath("//input[@value='Cancel Approval']"), this);
+public CPButton Resolve => new CPButton (By.XPath("//input[@value='Resolve']"), this);
+public CPButton Reopen => new CPButton (By.XPath("//input[@value='Reopen']"), this);
+public CPButton AssignChecklist => new CPButton (By.XPath("//input[@value='Assign Checklist']"), this);
+public CPButton SetEditMode => new CPButton (By.XPath("//input[@value='Set Edit Mode']"), this);
+public CPButton Cancel => new CPButton (By.XPath("//input[@value='Cancel']"), this);
+public CPButton Save => new CPButton (By.XPath("//input[@value='Save']"), this);
+public CPButton ClearAll => new CPButton (By.XPath("//input[@value='Clear All']"), this);
+public CPRichTextEditor Description => new CPRichTextEditor (By.Id("ctl00_WebPartManager_ProductionEventGeneral_WP_Description"), this);
+public CPTextArea ViewModeDescription => new CPTextArea (By.Id("ctl00_WebPartManager_ProductionEventGeneral_WP_Description"), this);
+public CPTextBox BriefDescription => new CPTextBox (By.Name("ctl00$WebPartManager$ProductionEventGeneral_WP$BriefDescription$ctl00"), this);
+public CPPickList PriorityLevel => new CPPickList (By.Id("ctl00_WebPartManager_ProductionEventGeneral_WP_PriorityLevel"), this);
+public CPPickList ResourceGroup => new CPPickList (By.Id("ctl00_WebPartManager_ProductionEventGeneral_WP_ResourceGroup"), this);
+public CPPickList Resource => new CPPickList (By.Id("ctl00_WebPartManager_ProductionEventGeneral_WP_Resource"), this);
+public CPWorkflowPickList ChargeToWorkflow => new CPWorkflowPickList (By.Id("ctl00_WebPartManager_ProductionEventGeneral_WP_ChargeToWorkflow"), this);
+public CPTextBox ChargeToStep => new CPTextBox (By.Name("ctl00$WebPartManager$ProductionEventGeneral_WP$ChargeToWorkflow$Step$Edit"), this);
+public CPPickList DiscoveryArea => new CPPickList (By.Id("ctl00_WebPartManager_ProductionEventGeneral_WP_DiscoveryArea"), this);
+public CPCalendar OccurrenceDate&Time => new CPCalendar (By.Id("ctl00_WebPartManager_ProductionEventGeneral_WP_OccurenceDate"), this);
+public CPPickList Initiator => new CPPickList (By.Id("ctl00_WebPartManager_ProductionEventGeneral_WP_Initiator"), this);
+public CPPickList InitiatorOrganization => new CPPickList (By.Id("ctl00_WebPartManager_ProductionEventGeneral_WP_InitiatorOrganization"), this);
+public CPTextBox Reporter => new CPTextBox (By.Name("ctl00$WebPartManager$ProductionEventGeneral_WP$Reporter$Edit"), this);
+public CPTextBox ReporterOrganization => new CPTextBox (By.Name("ctl00$WebPartManager$ProductionEventGeneral_WP$ReporterOrganization$Edit"), this);
+public CPCalendar ReportedDate => new CPCalendar (By.Id("ctl00_WebPartManager_ProductionEventGeneral_WP_ReportedDate"), this);
+public CPTextArea ChecklistInstructions => new CPTextArea (By.Name("ctl00$WebPartManager$ProductionEventChecklist_WP$ChecklistControl$ChecklistInstructionID$ctl00"), this);
+public CPTextBoxWithTab DispositionQty => new CPTextBoxWithTab (By.Id("ctl00_WebPartManager_ProductionEventDispAssign_WP_DispositionQty"), this);
+public CPCheckList CheckList => new CPCheckList (By.Id("ctl00_WebPartManager_ProductionEventChecklist_WP_ChecklistControl"), this);
+public CPInfoField ChecklistDefinition => new CPInfoField (By.Id("ctl00_WebPartManager_ProductionEventChecklist_WP_ChecklistControl"), this);
+}
